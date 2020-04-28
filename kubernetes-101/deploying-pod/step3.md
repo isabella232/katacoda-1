@@ -17,7 +17,7 @@ apiVersion: v1
 ```
 
 <pre class="file"
- data-filename="./deploying-pod/http-pod.yaml"
+ data-filename="http-pod.yaml"
   data-target="replace">
   apiVersion: v1
    kind: Pod

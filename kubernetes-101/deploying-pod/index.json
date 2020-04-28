@@ -29,6 +29,9 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "http-pod.yaml"
+  ],
   "environment": {
     "uilayout": "editor-terminal"
   },
