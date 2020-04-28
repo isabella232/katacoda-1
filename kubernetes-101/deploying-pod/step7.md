@@ -9,7 +9,7 @@ You should see an initial log showing `Web Server started. Listening on 0.0.0.0:
 
 We will show more details later on how to access this pod externally.
 
-### Exercise 1 
+### Exercise 1 - Accessing pod logs
 Try to access the logs for the **http-yaml** pod. You should see a similar output.
 
 # Deleting a pod
@@ -22,7 +22,7 @@ First, check the list of pods by by running `kubectl get pods`.
 We can then delete each of the pods one by one by running `kubectl delete pod pod-name`. For our http server we can do this by running `kubectl delete pod http`{{execute}}.
 
 You should get a console log saying `pod "http" deleted`
-### Exercise 2
+### Exercise 2 - Deleting a pod
 
 Try to delete the **http-yaml** pod.
 
