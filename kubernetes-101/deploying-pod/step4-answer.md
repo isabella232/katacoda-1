@@ -6,7 +6,7 @@ This section shows the solutions to the exercises in this section
 
 **Exercise 2:-** Creating a pod manifest
 
-Create a manifest with the filename `exercise.yaml`{{open}} with the image `jenniferstrej/jen-nginx:1.1` and the podname `exercise-yaml` 
+Create a manifest with the filename `exercise.yaml`{{open}} with the image **jenniferstrej/jen-nginx:1.1** and the podname **exercise-yaml**. 
 
 <pre class="file"
 data-filename="exercise.yaml"
