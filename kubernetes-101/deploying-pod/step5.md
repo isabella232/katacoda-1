@@ -7,7 +7,7 @@ Open the original **http-pod** yaml file. `http-pod.yaml`{{open}}
 
 Copy the following definition to the editor. The definition defines how to launch an application called http-yaml using the Docker Image katacoda/docker-http-server.
 
-Within the **image** section update the version of the docker-http-server to **healthy**
+Within the **image** section update the version of the docker-http-server to **healthy** from **v4**
 
 If you're stuck or the manifest has been corrupted. Click **Show Solution** and copy the updated yaml into the file and return to this screen.
        
@@ -21,11 +21,7 @@ You can then run the following command to create the pod `kubectl apply -f http-
 
 You can then use kubectl to see that the **http-yaml** pod now has the **healthy** version of the docker image.
 
-`kubectl get pods -o wide`{{execute}}
-
-To find out what Kubernetes created you can describe the deployment process.
-
 `kubectl describe pod http-yaml`{{execute}}
 
-The description includes labels specified and the events associated with the pod. These events will highlight any problems and errors that might have occurred.
+The description should now show that the image tag is using the **healthy** version.
 
