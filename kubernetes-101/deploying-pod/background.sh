@@ -1,3 +1,1 @@
-#!/bin/bash
-
-touch /root/createdFromBackgroundScript
+mkdir -p example; cd example/

@@ -16,8 +16,13 @@ apiVersion: v1
      name: jen-nginx
 ```
 
+<pre>
+"files": [
+    "http-pod.yayml"
+]
+</pre>
 <pre class="file"
- data-filename="./deploying-pod/http-pod.yaml"
+ data-filename="http-pod.yaml"
   data-target="replace">
   apiVersion: v1
    kind: Pod
