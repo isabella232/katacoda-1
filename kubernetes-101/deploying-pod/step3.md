@@ -18,4 +18,15 @@ apiVersion: v1
 
 <pre class="file"
  data-filename="./deploying-pod/http-pod.yaml"
-  data-target="replace">Contents To Copy To Editor</pre>
+  data-target="replace">
+  apiVersion: v1
+   kind: Pod
+   metadata:
+     labels:
+       run: jen-nginx
+     name: jen-nginx
+   spec:
+     containers:
+     - image: jenniferstrej/jen-nginx:1.1
+       name: jen-nginx
+       </pre>
