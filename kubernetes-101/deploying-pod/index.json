@@ -22,7 +22,8 @@
       {
         "title": "Step 4 - Test your knowledge",
         "text": "step4.md",
-        "answer": "step4-answer.md"
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
       },
       {
         "title": "Step 5 - Updating a pod manifest",
@@ -32,7 +33,13 @@
       {
         "title": "Step 6 - Test your knowledge",
         "text": "step6.md",
-        "answer": "step6-answer.md"
+        "answer": "step6-answer.md",
+        "verify": "step6-verify.sh"
+      },
+      {
+        "title": "Step 7 - Test your knowledge",
+        "text": "step7.md",
+        "verify": "step7-verify.sh"
       }
     ],
     "intro": {
