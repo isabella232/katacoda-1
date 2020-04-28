@@ -29,6 +29,7 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "port": 30000,
+    "dockerimage": "minikube-running"
   }
 }
