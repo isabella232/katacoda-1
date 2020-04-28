@@ -33,5 +33,4 @@ apiVersion: v1
    spec:
      containers:
      - image: jenniferstrej/jen-nginx:1.1
-       name: jen-nginx
-       </pre>
+       name: jen-nginx</pre>
