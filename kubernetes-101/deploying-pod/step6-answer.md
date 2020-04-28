@@ -1,10 +1,6 @@
 This section shows the solutions to the exercises in this section
 
-**Exercise 1:-** Creating a pod from the command line
-
-`kubectl run --generator=run-pod/v1 exercise --image=jenniferstrej/jen-nginx:1.0`{{execute}}
-
-**Exercise 2:-** Creating a pod manifest
+**Exercise 1:-** Creating a pod manifest
 
 Create a manifest with the filename `exercise.yaml`{{open}} with the image **jenniferstrej/jen-nginx:1.1** and the podname **exercise-yaml**. 
 
@@ -19,7 +15,7 @@ metadata:
   name: exercise-yaml
 spec:
   containers:
-  - image: jenniferstrej/jen-nginx:1.1
+  - image: jenniferstrej/jen-nginx:1.0
     name: exercise-yaml</pre>
 
 **Exercise 3:-** Create the pod using the manifest

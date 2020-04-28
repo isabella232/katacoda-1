@@ -1,5 +1,7 @@
 Minikube has been pre-installed and configured in this katacoda environment. Check that it is properly installed, by running the minikube version command:
 
+Minikube will complete it's installation setup and will display **Done! kubectl is now configured to use "minikube"** once it is completed.
+
 `minikube version`{{execute}}
 
 Check the cluster is up and running by running the command:
