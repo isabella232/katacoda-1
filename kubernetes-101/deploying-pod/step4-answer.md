@@ -24,4 +24,4 @@ spec:
 
 **Exercise 3:-** Create the pod using the manifest
 
-`kubectl apply -f http-pod.yaml`{{execute}}
+`kubectl apply -f exercise.yaml`{{execute}}

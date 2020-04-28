@@ -4,7 +4,7 @@ In this section we set out some exercises for you to complete to test the knowle
 
 **Exercise 1:-** Creating a pod from the command line
 
-Create a pod with the name `exercise` manifest with the image `jenniferstrej/jen-nginx:1.1`
+Create a pod with the name **exercise** manifest with the image **jenniferstrej/jen-nginx:1.0**
 
 **Exercise 2:-** Creating a pod manifest
 
