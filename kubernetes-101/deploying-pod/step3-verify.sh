@@ -1,3 +1,5 @@
-var1=$(kubectl get pods -o jsonpath="{.items[?(@.metadata.name)].metadata.name}" | grep -ow http-yaml )
-var2="http-yaml"
-[ "$var1" == $var2 ] && echo "done"
+# Verify the http-yaml pod
+var1=$(kubectl get pods -o jsonpath='{range .items[*]}{@.metadata.name}{" "}{@.spec.containers[].image}{"\n"}{end}'| grep -ow "http-yaml katacoda/docker-http-server:v4")
+var2="http-yaml katacoda/docker-http-server:v4"
+
+[ "$var1" == "$var2" ] && echo "done"
