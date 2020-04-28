@@ -34,5 +34,3 @@ To find out what Kubernetes created you can describe the deployment process.
 `kubectl describe pod http-yaml`{{execute}}
 
 The description includes labels specified and the events associated with the pod. These events will highlight any problems and errors that might have occurred.
-
-In the next step we'll expose the running service.
