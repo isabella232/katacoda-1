@@ -1,4 +1,4 @@
-We can also create a similar pod by using the YAML file (more help can be found [here](https://www.tutorialspoint.com/kubernetes/kubernetes_pod.htm))
+We can also create a similar pod by creating a [manifest](https://kubernetes.io/docs/reference/glossary/?all=true#term-manifest) using the YAML file (more help can be found [here](https://www.tutorialspoint.com/kubernetes/kubernetes_pod.htm))
 
 ## Task 
 
@@ -23,7 +23,7 @@ If the file does not open, click the link to the file below.
 
 Once the file has been updated, you can verify it's contents by running `cat http-pod.yaml`{{execute}}.
 
-You can then run the following command to create the pod `kubectl apply -f http-pod.yaml`
+You can then run the following command to create the pod `kubectl apply -f http-pod.yaml`{{execute}}.
 
 You can then use kubectl to see that the new pod has been added and you should see the `http-yaml` pod below.
 
