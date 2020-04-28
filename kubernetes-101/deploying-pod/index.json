@@ -22,7 +22,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "background.sh",
       "code": "foreground.sh"
     },
     "finish": {
@@ -33,7 +32,10 @@
     "http-pod.yaml"
   ],
   "environment": {
-    "uilayout": "editor-terminal"
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/example"
+
   },
   "backend": {
     "imageid": "minikube"
