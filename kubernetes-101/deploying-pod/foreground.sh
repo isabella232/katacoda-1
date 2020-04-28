@@ -1,1 +1,2 @@
-launch.sh
+minikube start --wait=false
+echo "Kubernetes started"
