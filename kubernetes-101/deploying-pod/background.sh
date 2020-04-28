@@ -1,1 +1,0 @@
-mkdir -p kubernetes101; cd /kubernetes101/

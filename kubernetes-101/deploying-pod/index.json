@@ -6,8 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Step 1 - Setting up a cluster",
+        "text": "step1.md",
       },
       {
         "title": "Step 2 - Creating pods using kubectl",

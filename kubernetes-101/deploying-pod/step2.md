@@ -13,5 +13,5 @@ To find out what Kubernetes created you can describe the deployment process.
 
 The description includes labels specified and the events associated with the pod. These events will highlight any problems and errors that might have occurred.
 
-In the next step we'll expose the running service.
+In the next step we'll show you how to create the same pod directly from code.
 
