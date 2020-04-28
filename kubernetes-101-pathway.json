@@ -6,6 +6,16 @@
       "course_id": "deploying-pod",
       "title": "Deploying a pod",
       "description": "Tutorial on deploying a pod to a kubernetes cluster"
+    },
+    {
+      "course_id": "deployments",
+      "title": "Creating deployments and replicasets",
+      "description": "Tutorial on creating deployments and the use of replicasets"
+    },
+    {
+      "course_id": "loadbalancing",
+      "title": "LoadBalancing and Scaling",
+      "description": "Tutorial on LoadBalancing and scaling"
     }
   ]
 }
