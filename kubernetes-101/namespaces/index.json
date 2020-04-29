@@ -50,7 +50,7 @@
     }
   },
   "files": [
-    "namespace.yaml", "exercise.yaml", "lab.yaml"
+    "namespace.yaml", "exercise.yaml", "pod-namespace.yaml","lab.yaml"
   ],
   "environment": {
     "hideHiddenFiles": true,

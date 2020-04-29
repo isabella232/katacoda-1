@@ -1,10 +1,25 @@
-##Exercises
 
 **Exercise 1:-**
-Create a namespace titled **exercise** using the **kubectl** CLI.
+Create a namespace titled **lab1** using the **kubectl** CLI.
 
-`kubectl run --generator=run-pod/v1 happymonkey -n lab1 --image=jenkins:latest`{{execute}}
-**Exercise 2:-**
+>**Solution**
+`kubectl create namespace lab1`{{execute}}
+
+**Exercise 2:-** Create a pod using the kubectl CLI with the following constraints.
+
+* **Pod name**: happymonkey
+* **Namespace**: lab1
+* **Container Image**: jenkins:latest
+
+>**Solution**
+>`kubectl run --generator=run-pod/v1 happymonkey -n lab1 --image=jenkins:latest`{{execute}}
+
+**Exercise 3:-**
+Check `happymonkey` is running successfully
+>**Solution**
+`kubectl get pods -n lab1`{{execute}}
+
+**Exercise 4:-**
 Create a namespace titled **manifest** using the YAML manifest using the `exercise.yaml`{{open}} file.
 
 <pre class="file"

@@ -11,9 +11,9 @@ Let's create `kubernetes-101` namespace:
 Creating a namespace can also be done using a YAML manifest in the same way as our pod resource. 
 
 ### Task
-Let's create `yaml-kubernetes-101` namespace:
+Let's create `yaml-namespace` namespace:
 
-Copy the following definition to the editor. The definition defines how to launch an application called `yaml-kubernetes-101`
+Copy the following definition to the editor. The definition defines how to launch an application called `yaml-namespace`
 <pre class="file"
 data-filename="namespace.yaml"
 data-target="replace">

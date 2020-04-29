@@ -1,5 +1,3 @@
-##Exercises
-
 **Exercise 1:-**
 Create a namespace titled **exercise** using the **kubectl** CLI.
 
