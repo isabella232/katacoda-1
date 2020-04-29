@@ -40,7 +40,7 @@
     "uieditorpath": "/kubernetes101"
   },
   "files": [
-    "deployments.yaml"
+    "deployments.yaml", "/kubernetes101/deployments.yaml", "./deployments.yaml"
   ],
   "backend": {
     "imageid": "minikube"
