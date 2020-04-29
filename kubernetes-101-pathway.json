@@ -19,8 +19,8 @@
     },
     {
       "course_id": "loadbalancing",
-      "title": "LoadBalancing and Scaling",
-      "description": "Tutorial on LoadBalancing and scaling"
+      "title": "Services and Loadbalancign",
+      "description": "Tutorial on Services and Loadbalancing"
     }
   ]
 }
