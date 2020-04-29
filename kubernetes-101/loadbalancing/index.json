@@ -27,12 +27,12 @@
   },
   "assets": {
     "host01": [
-      {"file": "deployments.yaml", "target": "/"}
+      {"file": "deployments.yaml", "target": "/root/assets/"}
     ],
     "client": [
       {
         "file": "deployments.yaml",
-        "target": "/"
+        "target": "/root/assets/"
       }
     ]
   },
