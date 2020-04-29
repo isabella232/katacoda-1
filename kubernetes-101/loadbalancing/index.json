@@ -28,6 +28,12 @@
   "assets": {
     "host01": [
       {"file": "deployments.yaml", "target": "/kubernetes101"}
+    ],
+    "client": [
+      {
+        "file": "deployments.yaml",
+        "target": "~/"
+      }
     ]
   },
   "files": [
