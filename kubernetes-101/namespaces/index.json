@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Setup",
+        "text": "step0.md"
+      },
+      {
         "title": "Namespaces",
         "text": "step1.md"
       },
