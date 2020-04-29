@@ -41,7 +41,8 @@ metadata:
     run: http
   name: http
 spec:
-  externalIPs:[[HOST_IP]]
+  externalIPs: 
+    - [[HOST_IP]]
   ports:
   - port: 8001
     protocol: TCP
