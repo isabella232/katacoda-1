@@ -8,6 +8,8 @@ The most important default namespaces can be seen here.
 
 ![Default Namespaces](./assets/default_spaces.png)
 
+You can check on the list of current namespaces by running `kubectl get namespaces`{{execute}}
+
 ### kube-system
 This namespace has objects created by Kubernetes system:
 
