@@ -1,5 +1,3 @@
-`kubectl expose deployment hello-world --name=exposed-service --external-ip="[[HOST_IP]]" --port=80 --target-port=80`{{execute}}
-
 To begin with we will start with a simple deployment using a docker http image.
 
 `kubectl create deployment http --image=katacoda/docker-http-server:latest`{{execute}}
@@ -17,11 +15,11 @@ With the deployment created, we can use **kubectl** to create a service which ex
 
 We can expose the container port `80` to the external port `8000` binding to the `external-ip` of the host.
 
-We can expose our `http` deployment on port `80` by running `kubectl expose deployment http --external-ip="172.17.0.32" --port=8000 --target-port=80`{{execute}}
+We can expose our `http` deployment on port `80` by running `kubectl expose deployment http --external-ip="[[HOST_IP]]" --port=8000 --target-port=80`{{execute}}
 
 You will then be able to ping the host and see the result from the HTTP service.
 
-`curl http://172.17.0.32:8000`{{execute}}
+`curl http://[[HOST_IP]]:8000`{{execute}}
 
 You can then see the response `<h1>This request was processed by host: http-768f8fdbc-fzqlr</h1>` where the **http-768f8fdbc-fzqlr** is replaced by the pod name found by running `kubectl get pods -l app=http`{{execute}}.
 
