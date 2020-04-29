@@ -8,7 +8,7 @@
       "host01": [
         {
           "file": "deployments.yaml",
-          "target": "/kubernetes-101"
+          "target": "/kubernetes101"
         }
       ]
     },
