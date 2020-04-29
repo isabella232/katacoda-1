@@ -21,7 +21,7 @@ Check **happymonkey** is running successfully
 
 **Exercise 4:-**
 Create a namespace titled **manifest** using the YAML manifest using the `exercise.yaml`{{open}} file.
-
+>**Solution**
 <pre class="file"
 data-filename="lab.yaml"
 data-target="replace">
@@ -43,6 +43,9 @@ spec:
       containerPort: 8080
       protocol: TCP</pre>
   
-Then run `kubectl apply -f lab.yaml`{{execute}}
+>Then run `kubectl apply -f lab.yaml`{{execute}}
 
 **Exercise 5:-** Check **happyelephant** is running successfully
+>**Solution**
+>
+>Run `kubectl get pods -n lab1`{{execute}}
