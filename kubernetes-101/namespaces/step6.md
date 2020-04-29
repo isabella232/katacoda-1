@@ -1,16 +1,16 @@
 Let's practice!
 
-1. Create namespace: lab1
+**Exercise 1:-** Create namespace: lab1
 
-2. Create a pod using the kubectl CLI with the following constraints.
+**Exercise 2:-** Create a pod using the kubectl CLI with the following constraints.
 
 * **Pod name**: happymonkey
 * **Namespace**: lab1
 * **Container Image**: jenkins:latest
 
-Check `happymonkey` is running successfully
+**Exercise 3:-** Check `happymonkey` is running successfully
 
-3. Create a pod using the yaml mainfest with the following constraints:
+**Exercise 4:-** Create a pod using the yaml mainfest with the following constraints:
 
 * **File name**: `lab.yaml`{{open}}
 * **Pod name**: happyelephant
@@ -21,4 +21,4 @@ Check `happymonkey` is running successfully
 
 You can use the `pod-namespace.yaml`{{open}} file as an example to help
 
-Check `happyelephant` is running successfully
+**Exercise 5:-** Check `happyelephant` is running successfully

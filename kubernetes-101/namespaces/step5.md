@@ -49,5 +49,9 @@ spec:
       protocol: TCP</pre>
       
 If the file doesn't open click here `pod-namespace.yaml`{{open}}
+
+To create the pod using the manifest we can then run the following command as usual:
+
+`kubectl apply -f pod-namespace.yaml`{{execute}}
       
 We can then check to see that the `redis` pod has been created by running `kubectl get pods -n manifest`{{execute}}
