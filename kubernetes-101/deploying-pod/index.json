@@ -57,7 +57,6 @@
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
     "uieditorpath": "/kubernetes101"
-
   },
   "backend": {
     "imageid": "minikube"
