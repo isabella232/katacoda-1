@@ -15,7 +15,7 @@ Create a namespace titled **lab1** using the **kubectl** CLI.
 >`kubectl run --generator=run-pod/v1 happymonkey -n lab1 --image=jenkins:latest`{{execute}}
 
 **Exercise 3:-**
-Check `happymonkey` is running successfully
+Check **happymonkey** is running successfully
 >**Solution**
 `kubectl get pods -n lab1`{{execute}}
 
@@ -44,3 +44,5 @@ spec:
       protocol: TCP</pre>
   
 Then run `kubectl apply -f lab.yaml`{{execute}}
+
+**Exercise 5:-** Check **happyelephant** is running successfully
