@@ -27,14 +27,15 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "files": [
-    "deployments.yaml"
+    "/kubernetes101/deployments.yaml"
   ],
   "environment": {
     "hideHiddenFiles": true,
