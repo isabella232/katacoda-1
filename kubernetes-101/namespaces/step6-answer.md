@@ -15,13 +15,13 @@ Create a namespace titled **lab1** using the **kubectl** CLI.
 >`kubectl run --generator=run-pod/v1 happymonkey -n lab1 --image=jenkins:latest`{{execute}}
 
 **Exercise 3:-**
-Check `happymonkey` is running successfully
+Check **happymonkey** is running successfully
 >**Solution**
 `kubectl get pods -n lab1`{{execute}}
 
 **Exercise 4:-**
 Create a namespace titled **manifest** using the YAML manifest using the `exercise.yaml`{{open}} file.
-
+>**Solution**
 <pre class="file"
 data-filename="lab.yaml"
 data-target="replace">
@@ -43,4 +43,9 @@ spec:
       containerPort: 8080
       protocol: TCP</pre>
   
-Then run `kubectl apply -f lab.yaml`{{execute}}
+>Then run `kubectl apply -f lab.yaml`{{execute}}
+
+**Exercise 5:-** Check **happyelephant** is running successfully
+>**Solution**
+>
+>Run `kubectl get pods -n lab1`{{execute}}
