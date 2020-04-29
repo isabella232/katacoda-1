@@ -44,7 +44,7 @@
     }
   },
   "files": [
-    "namespace.yaml", "exercise.yaml"
+    "namespace.yaml", "exercise.yaml", "lab.yaml"
   ],
   "environment": {
     "hideHiddenFiles": true,
