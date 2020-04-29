@@ -14,7 +14,7 @@
     },
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Services",
         "text": "step1.md"
       },
       {
@@ -39,9 +39,6 @@
     "uilayout": "editor-terminal",
     "uieditorpath": "/kubernetes101"
   },
-  "files": [
-    "./deployments.yaml"
-  ],
   "backend": {
     "imageid": "minikube"
   }
