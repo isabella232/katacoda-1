@@ -8,6 +8,11 @@
       "description": "Tutorial on deploying a pod to a kubernetes cluster"
     },
     {
+      "course_id": "namespaces",
+      "title": "Namespaces",
+      "description": "Tutorial on using namespaces in kubernetes"
+    },
+    {
       "course_id": "deployments",
       "title": "Creating deployments and replicasets",
       "description": "Tutorial on creating deployments and the use of replicasets"
