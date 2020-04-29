@@ -33,6 +33,12 @@
         "title": "Deploying a pod to a namespace",
         "text": "step5.md",
         "verify": "step5-verify.sh"
+      },
+      {
+        "title": "Lab",
+        "text": "step6.md",
+        "verify": "step6-verify.sh",
+        "answer": "step6-answer.md"
       }
     ],
     "intro": {
