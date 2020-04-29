@@ -24,3 +24,30 @@ You will then be able to ping the host and see the result from the HTTP service.
 You can then see the response `<h1>This request was processed by host: http-768f8fdbc-fzqlr</h1>` where the **http-768f8fdbc-fzqlr** is replaced by the pod name found by running `kubectl get pods -l app=http`{{execute}}.
 
 You should also now be able to see the new service under `kubectl get svc`{{execute}}.
+
+## Creating a service using a manifest
+
+You can also create a service by creating a YAML manifest and starting the service that way.
+
+Firstly, open the file `service.yaml`{{open}} then click `copy to editor` to copy the code into the file.
+
+<pre class="file"
+data-filename="service.yaml"
+data-target="replace">
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: http
+  name: http
+spec:
+  externalIPs:[[HOST_IP]]
+  ports:
+  - port: 8001
+    protocol: TCP
+    targetPort: 80
+  selector:
+    run: http</pre>
+
+
+You can then run `kubectl apply -f service.yaml`{{execute}}
