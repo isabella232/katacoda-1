@@ -25,14 +25,6 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "host01": [
-      {
-        "file": "deployments.yaml",
-        "target": "~/"
-      }
-    ]
-  },
   "files": [
     "deployments.yaml"
   ],
