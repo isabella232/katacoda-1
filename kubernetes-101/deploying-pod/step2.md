@@ -3,6 +3,7 @@ The following command will launch a deployment called http which will start a co
 
 `kubectl run --generator=run-pod/v1 http --image=katacoda/docker-http-server:latest`{{execute}}
 
+
 You can then use kubectl to view the status of the pod
 
 `kubectl get pods`{{execute}}

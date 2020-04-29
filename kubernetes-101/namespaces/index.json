@@ -28,6 +28,11 @@
         "text": "step4.md",
         "answer": "step4-answer.md",
         "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Deploying a pod to a namespace",
+        "text": "step5.md",
+        "verify": "step5-verify.sh"
       }
     ],
     "intro": {
