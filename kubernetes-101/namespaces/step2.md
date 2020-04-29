@@ -1,16 +1,16 @@
 Similar to pods, we can create our new namespaces using the CLI or through a YAML manifest.
 
-##Kubectl CLI
+## Kubectl CLI
 Creating a namespace can be done with a single command using the `kubectl` cli. 
 
-###Task
+### Task
 Let's create `kubernetes-101` namespace:
 `kubectl create namespace kubernetes-101`{{execute}}
 
-##YAML manifest
+## YAML manifest
 Creating a namespace can also be done using a YAML manifest in the same way as our pod resource. 
 
-###Task
+### Task
 Let's create `yaml-kubernetes-101` namespace:
 
 Copy the following definition to the editor. The definition defines how to launch an application called `yaml-kubernetes-101`
@@ -30,5 +30,5 @@ Once the file has been updated, you can verify it's contents by running `cat nam
 
 You can then run the following command to create the pod `kubectl apply -f namespace.yaml`{{execute}}.
 
-##List all namespace
+## List all namespace
 To verify that we have the new namespaces created we can check by running `kubectl get namespaces`{{execute}}

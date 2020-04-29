@@ -1,6 +1,6 @@
 We can often need to tidy up our namespaces on occassions.
 
-##Delete a Namespace:
+## Delete a Namespace:
 To delete a namespace there are two options, we can use a yaml file or a single command:
 ### Kubectl CLI
 
