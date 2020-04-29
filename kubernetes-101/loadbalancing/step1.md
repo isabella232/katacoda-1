@@ -21,6 +21,6 @@ You will then be able to ping the host and see the result from the HTTP service.
 
 `curl http://172.17.0.32:8000`{{execute}}
 
-You can then see the response `<h1>This request was processed by host: http-768f8fdbc-fzqlr</h1>` where the `http-768f8fdbc-fzqlr` is replaced by the pod name found by running `kubectl get pods -l app=http`{{execute}}.
+You can then see the response `<h1>This request was processed by host: http-768f8fdbc-fzqlr</h1>` where the **http-768f8fdbc-fzqlr** is replaced by the pod name found by running `kubectl get pods -l app=http`{{execute}}.
 
 You should also now be able to see the new service under `kubectl get svc`.

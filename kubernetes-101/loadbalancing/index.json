@@ -39,6 +39,9 @@
     "uilayout": "editor-terminal",
     "uieditorpath": "/kubernetes101"
   },
+  "files": [
+    "./deployments.yaml"
+  ],
   "backend": {
     "imageid": "minikube"
   }
