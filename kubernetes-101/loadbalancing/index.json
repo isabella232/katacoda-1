@@ -34,14 +34,14 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "/kubernetes101/deployments.yaml"
-  ],
   "environment": {
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
     "uieditorpath": "/kubernetes101"
   },
+  "files": [
+    "deployments.yaml", "/kubernetes101/deployments.yaml", "./deployments.yaml"
+  ],
   "backend": {
     "imageid": "minikube"
   }
