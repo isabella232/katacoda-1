@@ -2,7 +2,7 @@ We can also create a similar pod by creating a [manifest](https://kubernetes.io/
 
 ## Task 
 
-Copy the following definition to the editor. The definition defines how to launch an application called http-yaml using the Docker Image katacoda/docker-http-server.
+Copy the following definition to the editor. The definition defines how to launch an application called **http-yaml** using the Docker Image **katacoda/docker-http-server**.
 <pre class="file"
 data-filename="http-pod.yaml"
 data-target="replace">

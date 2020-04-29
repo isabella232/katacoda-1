@@ -1,0 +1,1 @@
+This tutorial outlines some of the most common namespaces in kubernetes and will guide you through how to switch between namespaces and create pods in the targeted namespaces.

@@ -6,16 +6,24 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Namespaces",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Create a new namespace",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Deleting namespaces",
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Exercises",
+        "text": "step4.md",
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
       }
     ],
     "intro": {
@@ -25,10 +33,15 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "namespace.yaml", "exercise.yaml"
+  ],
   "environment": {
-    "uilayout": "terminal"
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/kubernetes101"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "minikube"
   }
 }
