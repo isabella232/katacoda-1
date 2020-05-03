@@ -21,7 +21,7 @@ Expose the `exercise`on port `8006` using target port and the name `exercisetarg
 
 >Solution
 >
->`kubectl expose deployment exercuse --name=exercisetarget --port=8006 --target-port=80`{{execute}}
+>`kubectl expose deployment exercise --name=exercisetarget --port=8006 --target-port=80`{{execute}}
 
 You then should be able to test the deployment is exposed by running the following commands
 `export EX_TARGET_IP=$(kubectl get services/exercisetarget -o go-template='{{(index .spec.clusterIP)}}')
@@ -46,6 +46,9 @@ Verify that you see a response similar to the one below `<h1>This request was pr
 
 **Exercise 4**:-
 Expose the `exercise` using the name `exercisenodeport` and nodeport.
+
+>Solution
+>
 `kubectl expose deployment exercise --name=exercisenodeport --type=NodePort`{{execute}}
 
 You can then get the nodeport by running the following command.
