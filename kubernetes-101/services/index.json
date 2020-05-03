@@ -35,7 +35,8 @@
     "steps": [
       {
         "title": "Setup",
-        "text": "step1.md"
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Services",
@@ -47,11 +48,13 @@
       },
       {
         "title": "Example - Creating a service using a clusterIP",
-        "text": "step1-clusterip.md"
+        "text": "step1-clusterip.md",
+        "verify": "step1-clusterip-verify.sh"
       },
       {
         "title": "Example - Creating a service using Target Port",
-        "text": "step1-targetport.md"
+        "text": "step1-targetport.md",
+        "verify": "step1-targetport-verify.sh"
       },
       {
         "title": "Example - Creating a service using an external IP",
