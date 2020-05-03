@@ -44,7 +44,9 @@
       },
       {
         "title": "Labels",
-        "text": "step2.md"
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+
       },
       {
         "title": "Example - Creating a service using a clusterIP",
@@ -58,16 +60,19 @@
       },
       {
         "title": "Example - Creating a service using an external IP",
-        "text": "step1-externalip.md"
+        "text": "step1-externalip.md",
+        "verify": "step1-externalip-verify.sh"
       },
       {
         "title": "Example - Creating a service using Node Port",
-        "text": "step1-nodeport.md"
+        "text": "step1-nodeport.md",
+        "verify": "step1-nodeport-verify.sh"
       },
       {
         "title": "Exercises",
         "text": "exercises.md",
-        "answer": "solutions.md"
+        "answer": "solutions.md",
+        "verify": "exercises.sh"
       },
       {
         "title": "Example - Port forwarding",
