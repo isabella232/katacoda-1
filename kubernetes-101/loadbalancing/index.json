@@ -25,10 +25,6 @@
         {
           "file": "rc.yaml",
           "target": "/kubernetes101"
-        },
-        {
-          "file": "exercise-rc.yaml",
-          "target": "/kubernetes101"
         }
       ]
     },

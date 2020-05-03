@@ -1,6 +1,6 @@
 {
   "title": "Services - Exposing your deployments",
-  "description": "Tutorial on exposing your ap to the cluster and outside using services",
+  "description": "Tutorial on exposing your app to the cluster and outside using services",
   "difficulty": "Intermediate",
   "time": "30",
   "details": {
