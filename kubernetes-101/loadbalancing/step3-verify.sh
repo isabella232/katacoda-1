@@ -1,2 +1,3 @@
-var1=$(kubectl get pods -n kubesystem -o jsonpath='{range .items[*]}{@.metadata.name}{" "}{@.spec.containers[].image}{"\n"}{end}'| grep -ow "http katacoda/docker-http-server:latest")
-var2="http katacoda/docker-http-server:latest"
+var1=$(kubectl get deployments -n kube-system -o jsonpath='{range .items[*]}{@.metadata.name}{"\n"}{end}'| grep -ow "nginx-ingress-controller")
+var2="nginx-ingress-controller"
+[ "$var1" == "$var2" ] &&echo "done"
