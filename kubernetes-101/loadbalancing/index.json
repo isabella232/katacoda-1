@@ -1,29 +1,68 @@
 {
-  "title": "LoadBalancing and Scaling",
-  "description": "Tutorial on LoadBalancing and scaling",
-  "difficulty": "Beginner",
+  "title": "Ingress and LoadBalancing",
+  "description": "Tutorial on Ingress and LoadBalancing",
+  "difficulty": "Intermediate",
   "time": "30",
   "details": {
     "assets": {
       "host01": [
         {
-          "file": "deployments.yaml",
+          "file": "ingress.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "ingress-template.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "loadbalancer.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "exercise.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "rc.yaml",
           "target": "/kubernetes101"
         }
       ]
     },
     "steps": [
       {
-        "title": "Services",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
+        "title": "Ingress Controllers",
         "text": "step3.md"
+      },
+      {
+        "title": "Set up first app",
+        "text": "step4.md"
+      },
+      {
+        "title": "Ingress rules",
+        "text": "step5.md"
+      },
+      {
+        "title": "Set up our second app",
+        "text": "step6.md",
+        "answer": "step6-answer.md"
+      },
+      {
+        "title": "Testing our ingress controller",
+        "text": "step7.md"
+      },
+      {
+        "title": "Exercises - Ingress",
+        "text": "exercises.md"
+      },
+      {
+        "title": "Load Balancers",
+        "text": "step8.md"
+      },
+
+      {
+        "title": "Exercises - LoadBalancer",
+        "text": "exercises-lb.md",
+        "answer": "solution-lb.md"
       }
     ],
     "intro": {

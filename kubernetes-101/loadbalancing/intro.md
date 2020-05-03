@@ -1,0 +1,1 @@
+In this scenario we will look at an introduction to `ingress rules` and learn how to divert traffic to different pods based on rules. We will then cover how to use loadbalancers to spread the workload.

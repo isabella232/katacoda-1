@@ -1,0 +1,90 @@
+{
+  "title": "Services - Exposing your deployments",
+  "description": "Tutorial on exposing your app to the cluster and outside using services",
+  "difficulty": "Intermediate",
+  "time": "30",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "external.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "deployment.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "cluster.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "targetport.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "nodeport.yaml",
+          "target": "/kubernetes101"
+        },
+        {
+          "file": "exercise.yaml",
+          "target": "/kubernetes101"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Setup",
+        "text": "step1.md"
+      },
+      {
+        "title": "Services",
+        "text": "step1a.md"
+      },
+      {
+        "title": "Labels",
+        "text": "step2.md"
+      },
+      {
+        "title": "Example - Creating a service using a clusterIP",
+        "text": "step1-clusterip.md"
+      },
+      {
+        "title": "Example - Creating a service using Target Port",
+        "text": "step1-targetport.md"
+      },
+      {
+        "title": "Example - Creating a service using an external IP",
+        "text": "step1-externalip.md"
+      },
+      {
+        "title": "Example - Creating a service using Node Port",
+        "text": "step1-nodeport.md"
+      },
+      {
+        "title": "Exercises",
+        "text": "exercises.md",
+        "answer": "solutions.md"
+      },
+      {
+        "title": "Example - Port forwarding",
+        "text": "step1-portforward.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/kubernetes101"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}

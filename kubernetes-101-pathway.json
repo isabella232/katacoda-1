@@ -18,9 +18,14 @@
       "description": "Tutorial on creating deployments and the use of replicasets"
     },
     {
+      "course_id": "services",
+      "title": "Services - Exposing your deployments",
+      "description": "Tutorial on exposing your app to the cluster and outside using services"
+    },
+    {
       "course_id": "loadbalancing",
-      "title": "Services and Loadbalancign",
-      "description": "Tutorial on Services and Loadbalancing"
+      "title": "Ingress and LoadBalancing",
+      "description": "Tutorial on Ingress and LoadBalancing"
     }
   ]
 }
