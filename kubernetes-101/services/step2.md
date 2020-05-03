@@ -34,3 +34,9 @@ We see here that the label is attached now to our Pod. And we can query now the 
 `kubectl get pods -l customlabel=condenast`{{execute}}
 
 And we see the 3 Pods.
+
+## Task
+ 
+ We can also add the same label to our deployment by running `kubectl label deployment http customlabel=condenast`{{execute}}.
+ 
+ We should now see our deployment has a label and can filter for that label by running `kubectl get deployments -l customlabel=condenast`{{execute}}.
