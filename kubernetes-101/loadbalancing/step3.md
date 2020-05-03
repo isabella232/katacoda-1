@@ -28,4 +28,4 @@ To enable the NGINX Ingress controller, run the following command:
 
 Verify that the NGINX Ingress controller is running
 `kubectl get pods -n kube-system`{{execute}}
->Note: This may take a minute or longer
+>Note: This may take a minute or longer and you will be able to continue once it is complete.
