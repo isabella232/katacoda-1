@@ -35,20 +35,24 @@
     "steps": [
       {
         "title": "Ingress Controllers",
-        "text": "step3.md"
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
       },
       {
         "title": "Set up first app",
-        "text": "step4.md"
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
       },
       {
         "title": "Ingress rules",
-        "text": "step5.md"
+        "text": "step5.md",
+        "verify": "step5-verify.sh"
       },
       {
         "title": "Set up our second app",
         "text": "step6.md",
-        "answer": "step6-answer.md"
+        "answer": "step6-answer.md",
+        "verify": "step6-verify.sh"
       },
       {
         "title": "Testing our ingress controller",
@@ -56,17 +60,19 @@
       },
       {
         "title": "Exercises - Ingress",
-        "text": "exercises.md"
+        "text": "exercises.md",
+        "verify": "exercises-verify.sh"
       },
       {
         "title": "Load Balancers",
-        "text": "step8.md"
+        "text": "step8.md",
+        "verify": "step8-verify.sh"
       },
-
       {
         "title": "Exercises - LoadBalancer",
         "text": "exercises-lb.md",
-        "answer": "solution-lb.md"
+        "answer": "solution-lb.md",
+        "verify": "exercises-lb-verify.sh"
       }
     ],
     "intro": {

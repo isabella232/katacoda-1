@@ -6,7 +6,7 @@ metadata:
   name: externalyaml
 spec:
   externalIPs:
-    - ${HOST_IP}
+    - [[HOST_IP]]
   ports:
     - port: 8003
       targetPort: 80
