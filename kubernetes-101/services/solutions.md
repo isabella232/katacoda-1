@@ -1,3 +1,7 @@
+Now you have had the opportunity to see a few examples of exposing our port, let's try a few exercises to consolidate your learning.
+
+For these exercises we have created our deployment in the `exercise.yaml`{{open}} file. This contains a deployment entitled **exercise**.
+
 Ensure our deployment is running by running `kubectl apply -f exercise.yaml`{{execute}}.
 
 Verify the deployment is running by running `kubectl get deployments exercise`{{execute}}.

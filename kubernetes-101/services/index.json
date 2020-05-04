@@ -87,6 +87,9 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "cluster.yaml","external.yaml","nodeport.yaml","targetport.yaml"
+  ],
   "environment": {
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
