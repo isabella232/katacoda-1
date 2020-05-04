@@ -13,13 +13,13 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
   rules:
-  - host: kubernetes101.info
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: web
-          servicePort: 8080</pre>
+    - host: kubernetes101.info
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: web
+              servicePort: 8080</pre>
           
 Create the Ingress resource by running the following command:
 `kubectl apply -f ingress.yaml`{{execute}}
