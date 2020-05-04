@@ -61,6 +61,7 @@
       {
         "title": "Exercises - Ingress",
         "text": "exercises.md",
+        "answer": "solution.md",
         "verify": "exercises-verify.sh"
       },
       {
@@ -71,7 +72,6 @@
       {
         "title": "Exercises - LoadBalancer",
         "text": "exercises-lb.md",
-        "answer": "solution-lb.md",
         "verify": "exercises-lb-verify.sh"
       }
     ],
