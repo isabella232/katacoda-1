@@ -39,6 +39,7 @@
       {
         "title": "Step 7 - Test your knowledge",
         "text": "step7.md",
+        "answer": "step7-answer.md",
         "verify": "step7-verify.sh"
       }
     ],
