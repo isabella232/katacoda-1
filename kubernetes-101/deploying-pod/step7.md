@@ -24,7 +24,7 @@ We can then delete each of the pods in two ways.
 We can delete a pod one by one by running `kubectl delete pod pod-name`. For our http server we can do this by running `kubectl delete pod http`{{execute}}.
 
 ###Yaml file
-We can delete a pod based on the yaml file by running `kubectl delete -f /http-pod.yaml`
+We can delete a pod based on the yaml file by running `kubectl delete -f http-pod.yaml`
 > **Note**: This file must be unchanged and have the same pod name otherwise it will not know which pod to delete. 
 
 You should get a console log saying `pod "http" deleted`
