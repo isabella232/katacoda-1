@@ -1,3 +1,3 @@
-Congratulations on completing your first scenario!!!
+Congratulations on completing the namespace scenario!!!
 
-Click **Next Scenario** to complete the Kubernetes 101 training
+Click **Next Scenario** to continue the Kubernetes 101 training
