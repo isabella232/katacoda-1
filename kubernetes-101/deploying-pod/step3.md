@@ -14,7 +14,7 @@ metadata:
  name: http-yaml
 spec:
  containers:
- - image: katacoda/docker-http-server:v4
+ - image: katacoda/docker-http-server:v1
    name: http-yaml</pre>
        
 If the file does not open, click the link to the file below.
