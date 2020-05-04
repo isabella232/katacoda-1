@@ -5,7 +5,7 @@ On occassions where we just want to temporarily forward a local port to a pod on
 
 THis can be useful when you want to temporarily connect into a pod directly and interact with the pod.
 
-To get the name of a pod in question, begin by running `kubectl get pods -l app=http` and see our pods.
+To get the name of a pod in question, begin by running `kubectl get pods -l app=http`{{execute}} and see our pods.
 
 We can then select the pods we wish to use by picking the first of those pods and runnign the following command `export TARGET_POD=$(kubectl get pods -l app=http -o jsonpath='{range .items[0]}{@.metadata.name}{"\n"}{end}')`{{execute}}
 
