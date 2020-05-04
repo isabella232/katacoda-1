@@ -14,8 +14,8 @@
     },
     {
       "course_id": "deployments",
-      "title": "Creating deployments and replicasets",
-      "description": "Tutorial on creating deployments and the use of replicasets"
+      "title": "Creating Deployments and ReplicaSets",
+      "description": "Tutorial on creating Deployments and the use of ReplicaSets"
     },
     {
       "course_id": "services",
