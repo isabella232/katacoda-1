@@ -21,7 +21,7 @@ spec:
  - image: katacoda/docker-http-server:v4
    name: http-yaml</pre>
 
-Within the **image** section update the version of the docker-http-server to **healthy** from **v4**
+Within the **image** section update the version of the docker-http-server to **v4** from **v1**
 
 If you're stuck or the manifest has been corrupted. Click **Show Solution** and copy the updated yaml into the file and return to this screen.
        
