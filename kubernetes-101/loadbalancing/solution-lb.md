@@ -34,7 +34,7 @@ In order to get access to the ip for our new load balancer we can run `export Lo
 
 To check the IP address we can run `echo LoadBalancerExerciseIP=$LoadBalancerExerciseIP`{{execute}} and can access the apps by running `curl $LoadBalancerExerciseIP:5678`{{execute}}
 
-We should see `<h1>This request was processed by host: exercise-nginx-4vfzj</h1>`
+We should see **<h1>This request was processed by host: exercise-nginx-4vfzj</h1>**
 (where the host is replaced by your pod names) returned.
 
 We should see that each time we **curl** the server we can see that it balances the load across the apps to distribute the workload.
