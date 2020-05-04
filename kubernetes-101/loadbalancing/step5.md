@@ -1,6 +1,6 @@
 Ingress rules are an object type with Kubernetes. The rules can be based on a request host (domain), or the path of the request, or a combination of both.
 
-We have already created our template file in `ingress.yaml`{{open}} and you cna view the source code below.
+We have already created our template file in `ingress.yaml`{{open}} and you can view the source code below.
 
 <pre class="file"
 data-filename="ingress.yaml"
