@@ -15,7 +15,7 @@ echo EX_CLUSTER_IP=$EX_CLUSTER_IP`{{execute}}
                                  
 `curl $EX_CLUSTER_IP`{{execute}}
 
-Verify that you see a response similar to the one below **<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>** where the exact podname is replaced by the pod name created in the deployment.
+Verify that you see a response similar to the one below `<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>` where the exact podname is replaced by the pod name created in the deployment.
 
 **Exercise 2**:-
 Expose the **exercise** on port **8006** using target port and the name **exercisetarget**.
@@ -45,7 +45,7 @@ echo EX_EXTERNAL_IP=$EX_EXTERNAL_IP`{{execute}}
                                    
 `curl $EX_EXTERNAL_IP:8007`{{execute}}
 
-Verify that you see a response similar to the one below **<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>** where the exact podname is replaced by the pod name created in the deployment.
+Verify that you see a response similar to the one below `<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>` where the exact podname is replaced by the pod name created in the deployment.
 
 **Exercise 4**:-
 Expose the **exercise** using the name **exercisenodeport** and nodeport.
