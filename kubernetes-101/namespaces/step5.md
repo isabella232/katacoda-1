@@ -4,7 +4,7 @@ Instead of just deploying our pods into the default namespace, we can also deplo
 
 For this task we will be using the `manifest` namespace. 
 
->Note If this namespace has been deleted, run `kubectl create namespace manifest`{{execute}} to create it again.
+>**Note** If this namespace has been deleted, run `kubectl create namespace manifest`{{execute}} to create it again.
 
 ## Kubectl
 To begin with, we can check which pods are running in this namespace by running `kubectl get pods -n manifest`{{execute}}. You should see that we do not have any pods in this namespace yet.
