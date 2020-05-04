@@ -18,6 +18,6 @@ spec:
   - image: jenniferstrej/jen-nginx:1.0
     name: exercise-yaml</pre>
 
-**Exercise 3:-** Create the pod using the manifest
+Create the pod using the manifest
 
 `kubectl apply -f exercise.yaml`{{execute}}
