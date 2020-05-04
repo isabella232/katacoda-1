@@ -21,6 +21,8 @@ Get the name of the Pods and store it in the POD_NAMES environment variable:
 We can then check the pod names by running
 `echo Name of the Pods: $POD_NAMES`{{execute}}
 
+## Task
+
 To apply a new label we use the label command followed by the object type, object name and the new label:
 
 `kubectl label pod $POD_NAMES customlabel=condenast`{{execute}}
