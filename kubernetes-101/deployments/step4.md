@@ -23,11 +23,11 @@ You should see two **ReplicaSets** why? Our deployment behind the scenes has cha
 
 Let's check if our deployements was succesfull:
 
-`kubectl rollout status deploymet/nginx-deployment`{{execute}}
+`kubectl rollout status deployment/nginx-deployment`{{execute}}
 
 You should also see that we have a new `rollout` history:
 
-`kubectl rollout status deploymet/nginx-deployment`{{execute}
+`kubectl rollout status deployment/nginx-deployment`{{execute}}
 
 Let's revert our deployment, it turns out we prefer nginx 1.14.2
 
