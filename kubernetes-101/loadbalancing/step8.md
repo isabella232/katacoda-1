@@ -22,6 +22,12 @@ As we know that our docker image exposes port 80 internally, we can run `kubectl
 
 In order to get access to the ip for our new load balancer we can run `export LoadBalancerIP=$(kubectl get services/http-service -o jsonpath='{.spec.clusterIP}')`{{execute}}.
 
+Check all of our pods are running by running `kubectl get rc`{{execute}} and keep refreshing until 3 current pods are running. 
+
+You should see a response similar to the one below.
+
+![Replications](./assets/rc.png)
+
 To check the IP address we can run `echo LoadBalancerIP=$LoadBalancerIP`{{execute}} and can access the apps by running `curl $LoadBalancerIP:8765`{{execute}}.
 
 We should see `<h1>This request was processed by host: nginx-4vfzj</h1>` (where the host is replaced by your pod names) returned. 

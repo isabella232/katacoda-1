@@ -9,7 +9,7 @@ It also lets us do more complicated request routing without having to add it to 
 
 Here at Conde Nast we use a variety of Ingress controllers, but most commonly use Traefik
 
-![Default Namespaces](./assets/traefik.png)
+![Traefik logo](./assets/traefik.png)
 
 There are a number of other candidates that we can use for the controller.
 
