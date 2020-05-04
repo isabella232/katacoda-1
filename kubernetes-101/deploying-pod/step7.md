@@ -17,7 +17,7 @@ Try to access the logs for the **http-yaml** pod. You should see a similar outpu
 We will now discuss how to delete pods once we have finished with resources.
 
 ## Delete a single pod
-First, check the list of pods by by running `kubectl get pods`.
+First, check the list of pods by running `kubectl get pods`.
 
 We can then delete each of the pods in two ways.
 ###Kubectl CLI
