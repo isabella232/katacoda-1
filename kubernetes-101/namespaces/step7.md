@@ -1,0 +1,1 @@
+You can find more information on namespaces on the kubernetes site [here](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) and can run through an in-depth walkthrough [here](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/).

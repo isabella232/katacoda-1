@@ -46,7 +46,6 @@
         "title": "Labels",
         "text": "step2.md",
         "verify": "step2-verify.sh"
-
       },
       {
         "title": "Example - Creating a service using a clusterIP",

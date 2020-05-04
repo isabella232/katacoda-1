@@ -39,6 +39,10 @@
         "text": "step6.md",
         "verify": "step6-verify.sh",
         "answer": "step6-answer.md"
+      },
+      {
+        "title": "Further reading",
+        "text": "step7.md"
       }
     ],
     "intro": {
