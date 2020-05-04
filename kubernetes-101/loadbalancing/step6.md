@@ -11,10 +11,10 @@ We can test our ability to divert traffic to this new app by adding a rule so th
 Open the `ingress.yaml`{{open}} file and add the following code to the end of the file            
 <pre class="file"
 data-filename="ingress.yaml"
-data-target="append">      - path: /v2/*
-        backend:
-          serviceName: web2
-          servicePort: 8080</pre>
+data-target="append">          - path: /v2/*
+            backend:
+              serviceName: web2
+              servicePort: 8080</pre>
 >**Note** YAML can be extremely sensitive to indentation so ensure that this path sits directly below the current path.
 
 and apply the changes `kubectl apply -f ingress.yaml`{{execute}}.
