@@ -31,6 +31,27 @@ Complete the file by replacing the fields that have  `...` with the neccessary d
 * service: exercise
 * port: 8080
 
+
+>Solution
+<pre class="file"
+data-filename="ingress-template.yaml"
+data-target="replace">
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: exercise
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  rules:
+  - host: exercise101.info
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: exercise
+          servicePort: 8080</pre>
+          
 With the template created, run the file to generate the resources by running `kubectl apply -f ingress-template.yaml`{{execute}}
 
 Verify the ingress resource is running by running `kubectl get ingress`{{execute}} and check the IP for minikube by running `minikube service exercise --url`{{execute}}. You should see the following output
