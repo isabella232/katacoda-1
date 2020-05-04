@@ -1,5 +1,5 @@
 ## Task
-The following command will launch a deployment called http which will start a container based on the Docker Image.
+The following command will launch a pod called http which will start a container based on the Docker Image.
 
 `kubectl run --generator=run-pod/v1 http --image=katacoda/docker-http-server:latest`{{execute}}
 
