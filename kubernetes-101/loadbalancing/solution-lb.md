@@ -16,20 +16,21 @@ Expose the deployment as a service with the following specifications:
 >
 > It can also be done by creating a yaml file called `yaml-exercise.yaml`{{open}} with the following specification
 <pre class="file"
- data-filename="ingress.yaml"
+ data-filename="yaml-exercise.yaml"
  data-target="replace">
- apiVersion: v1
-   kind: Service
-   metadata:
-     name: exercise-service
-   spec:
-     selector:
-       app: nginx
-     ports:
-       - port: 5678
-         targetPort: 80
-     type: LoadBalancer</pre> 
-        
+apiVersion: v1
+kind: Service
+metadata:
+  name: exercise-service
+spec:
+  selector:
+    app: exercise
+  ports:
+  - port: 5678
+    targetPort: 80
+type: LoadBalancer</pre> 
+It can then be run by running `kubectl apply -f yaml-exercise.yaml`{{execute}}
+
 In order to get access to the ip for our new load balancer we can run `export LoadBalancerExerciseIP=$(kubectl get services/exercise-service -o jsonpath='{.spec.clusterIP}')`{{execute}}.
 
 To check the IP address we can run `echo LoadBalancerExerciseIP=$LoadBalancerExerciseIP`{{execute}} and can access the apps by running `curl $LoadBalancerExerciseIP:5678`{{execute}}

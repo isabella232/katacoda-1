@@ -7,6 +7,20 @@ Open the original **http-pod** yaml file. `http-pod.yaml`{{open}}
 
 Copy the following definition to the editor. The definition defines how to launch an application called http-yaml using the Docker Image katacoda/docker-http-server.
 
+<pre class="file"
+data-filename="http-pod.yaml"
+data-target="replace">
+apiVersion: v1
+kind: Pod
+metadata:
+ labels:
+   run: http-yaml
+ name: http-yaml
+spec:
+ containers:
+ - image: katacoda/docker-http-server:v4
+   name: http-yaml</pre>
+
 Within the **image** section update the version of the docker-http-server to **healthy** from **v4**
 
 If you're stuck or the manifest has been corrupted. Click **Show Solution** and copy the updated yaml into the file and return to this screen.
