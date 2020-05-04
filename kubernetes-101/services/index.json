@@ -87,9 +87,6 @@
       "text": "finish.md"
     }
   },
-  "files": [
-  "rc.yaml", "ingress.yaml", "ingress-template.yaml","exercise.yaml", "rc-exercise.yaml", "loadbalancer.yaml"
-],
   "environment": {
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
