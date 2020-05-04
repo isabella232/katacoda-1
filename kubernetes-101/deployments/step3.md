@@ -1,8 +1,8 @@
 # Deployments
 
-We have seen that **ReplicaSets** allows us to scale our pods horizontally, but probably you won't ever going to manipulate **ReplicaSets** again. The reason is for that is that we have a higher order concept for dealing with horizontal scaling, yep **Deployments**
+We have seen that **ReplicaSets** allows us to scale our pods horizontally, but probably you won't ever going to manipulate **ReplicaSets** again. The reason for this is that we have a higher order concept for dealing with horizontal scaling, yep **Deployments**
 
-**Deployments** manage **ReplicaSets** for us, they allow us to rollout new versions of our app, rollback to a previous version or rolling updates to our pod templates
+**Deployments** manage **ReplicaSets** for us, they allow us to rollout new versions of our app, (perform) rollback to a previous version or rolling updates to our pod templates
 
 We can apply a yaml file like we did for the **ReplicaSet** or we can run a **kubectl** command
 
@@ -19,7 +19,7 @@ The new command doesn't allow us to pass the number of replicas we want, so we h
 
 Do a dry run, generate a yaml file and edit the file:
 
-`kubectl create deployment nginx-deployment --image=nginx:1.14.2 --dry-run=client -o=yaml | sed 's/replicas: 1/replicas: 3/g' >> deployment.yaml`{{execute}}
+`kubectl create deployment nginx-deployment --image=nginx:1.14.2 --dry-run -o=yaml | sed 's/replicas: 1/replicas: 3/g' >> deployment.yaml`{{execute}}
 
 After that we can apply:
 

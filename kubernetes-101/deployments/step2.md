@@ -1,10 +1,10 @@
 # ReplicaSets
 
-In your first exercise you run a pod in the cluster, what happens when you actually want to run multiple ones?
+In your first exercise you run a pod in the cluster, what happens when you actually want to run multiple pods?
 
 Run `kubectl run http --image=nginx:1.14.2` multiple times?
 
-Enter **ReplicaSets**, a **ReplicaSet** holds a template of the pod and the number of replicas we  want to run. 
+Of course not, we use **ReplicaSets**, a **ReplicaSet** holds a template of the pod and the number of replicas we  want to run. 
 
 
 In this example we already provide a **ReplicaSet** yaml file with the exercise, take your time to look at it
@@ -29,7 +29,7 @@ Check that we have 3 pods running
 
 Try killing the first pod on the list
 
-`kubectl delete pods ${kubectl get pods -o name | head -n 1}`{{execute}}
+`kubectl delete $(kubectl get pods -o name | head -n 1)`{{execute}}
 
 Get the pods again, you should see that a new one as been created
 

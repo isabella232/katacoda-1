@@ -43,4 +43,4 @@ Check your pods, see that they have recently been created:
 
 Confirm that they are running the correct version of nginx
 
-`kubectl desribe pod ${kubectl get pods -o name | head -n 1}`{{execute}}
+`kubectl desribe $(kubectl get pods -o name | head -n 1)`{{execute}}
