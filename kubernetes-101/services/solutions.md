@@ -59,5 +59,5 @@ You then should be able to test the deployment is exposed by running the followi
 echo NODEPORT=$NODEPORT
 curl [[HOST_IP]]:$NODEPORT`{{execute}}
 
-Verify that you see a response similar to the one below **<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>** where the exact podname is replaced by the pod name created in the deployment.
+Verify that you see a response similar to the one below `<h1>This request was processed by host: exercise-768f8fdbc-fzqlr</h1>` where the exact podname is replaced by the pod name created in the deployment.
 
