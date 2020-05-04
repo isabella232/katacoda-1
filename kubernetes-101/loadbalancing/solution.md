@@ -99,7 +99,7 @@ spec:
           serviceName: exercise2
           servicePort: 8080</pre>
 
-Run **kubectl apply -f ingress-template.yaml** to update the ingress rules.
+Run `kubectl apply -f ingress-template.yaml`{{execute}} to update the ingress rules.
 
 Test that the rules are working by running the following commands.
 
