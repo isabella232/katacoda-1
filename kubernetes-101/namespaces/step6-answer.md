@@ -19,8 +19,15 @@ Check **happymonkey** is running successfully
 >**Solution**
 `kubectl get pods -n lab1`{{execute}}
 
-**Exercise 4:-**
-Create a namespace titled **manifest** using the YAML manifest using the `exercise.yaml`{{open}} file.
+**Exercise 4:-** Create a pod using the yaml manifest with the following constraints:
+
+* **File name**: `lab.yaml`{{open}}
+* **Pod name**: happyelephant
+* **Namespace**: lab1
+* **Container Image**: jenkins:latest
+* Add 3 labels
+* Set the container with 8080 port
+
 >**Solution**
 <pre class="file"
 data-filename="lab.yaml"

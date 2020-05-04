@@ -10,7 +10,7 @@ Let's practice!
 
 **Exercise 3:-** Check `happymonkey` is running successfully
 
-**Exercise 4:-** Create a pod using the yaml mainfest with the following constraints:
+**Exercise 4:-** Create a pod using the yaml manifest with the following constraints:
 
 * **File name**: `lab.yaml`{{open}}
 * **Pod name**: happyelephant
