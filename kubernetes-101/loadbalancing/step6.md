@@ -1,4 +1,4 @@
-To test ability of our ingress controller to divert traffic to the correct pod we will create a second pod.
+To test the ability of our ingress controller to divert traffic to the correct pod we will create a second pod.
 
 `kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0`{{execute}}
 

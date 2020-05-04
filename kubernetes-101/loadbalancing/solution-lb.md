@@ -28,7 +28,8 @@ spec:
   ports:
   - port: 5678
     targetPort: 80
-type: LoadBalancer</pre> 
+type: LoadBalancer</pre>
+
 It can then be run by running `kubectl apply -f yaml-exercise.yaml`{{execute}}
 
 In order to get access to the ip for our new load balancer we can run `export LoadBalancerExerciseIP=$(kubectl get services/exercise-service -o jsonpath='{.spec.clusterIP}')`{{execute}}.

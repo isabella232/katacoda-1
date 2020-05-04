@@ -73,7 +73,7 @@ Hostname: exercise-764b75c5d6-lwrh9
 
 **Exercise 2**
 
-Edit the `ingress-template.yaml`{{open}} to modify the ingress rules so that a new rule is added so that any traffic with **/exercise/*** at the root of the url divert to the **exercise2** app.
+Edit the `ingress-template.yaml`{{open}} file to modify the ingress rules so that a new rule is added so that any traffic with **/exercise/*** at the root of the url divert to the **exercise2** app.
 
 >Solution
 <pre class="file"

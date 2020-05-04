@@ -13,7 +13,7 @@ and expose the deployment again `kubectl expose deployment exercise --type=NodeP
 Create our second deployment by running
 `kubectl create deployment exercise2 --image=gcr.io/google-samples/hello-app:2.0`{{execute}}
 
-We then need to check that the deployment is running by running `kubectl get deployment exercise`{{execute}}.
+We then need to check that the deployment is running by running `kubectl get deployment exercise2`{{execute}}.
 and expose the deployment again `kubectl expose deployment exercise2 --type=NodePort --port=8080`{{execute}}
 
 Verify that we have both running by checking `kubectl get deployments`{{execute}} and `kubectl get svc`{{execute}}.
@@ -52,7 +52,7 @@ Hostname: exercise-764b75c5d6-lwrh9
 
 **Exercise 2**
 
-Edit the `ingress-template.yaml`{{open}} to modify the ingress rules so that a new rule is added so that any traffic with `/exercise/` at the root of the url divert to the `exercise2` app.
+Edit the `ingress-template.yaml`{{open}} file to modify the ingress rules so that a new rule is added so that any traffic with `/exercise/` at the root of the url divert to the `exercise2` app.
 
 Run `kubectl apply -f ingress-template.yaml` to update the ingress rules.
 
