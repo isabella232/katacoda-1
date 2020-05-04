@@ -2,13 +2,12 @@ To practice what we have learnt we have created a set of exercises to help pract
 
 ## Task
 
-To begin with, we need to set up our replication controller `exercise-nginx` which is in the `rc-exercise.yaml`{{open}} file by running `kubectl apply -f rc-exercise.yaml`.
+To begin with, we need to set up our replication controller `exercise-nginx` which is in the `rc-exercise.yaml`{{open}} file by running `kubectl apply -f rc-exercise.yaml`{{execute}}.
 
 **Exercise 1** 
 
 Expose the deployment as a service with the following specifications:
 
-* **port**: 5678
 * **type**: LoadBalancer
 * **target-port**: 80 
 * **port**: 5678

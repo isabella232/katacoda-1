@@ -54,7 +54,7 @@ Hostname: exercise-764b75c5d6-lwrh9
 
 Edit the `ingress-template.yaml`{{open}} to modify the ingress rules so that a new rule is added so that any traffic with `/exercise/` at the root of the url divert to the `exercise2` app.
 
-Run `kubectl apply -f ingress-template.yaml`{{open}} to update the ingress rules.
+Run `kubectl apply -f ingress-template.yaml` to update the ingress rules.
 
 Test that the rules are working by running the following commands.
 
