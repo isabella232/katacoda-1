@@ -12,7 +12,7 @@ Expose the deployment as a service with the following specifications:
 * **name**: exercise-service
 
 > Solution
->Run `kubectl expose rc exercise-nginx --port=5678 --target-port=80         --name=exercise-service --type=LoadBalancer`{{execute}}
+>Run `kubectl expose rc exercise-nginx --port=5678 --target-port=80 --name=exercise-service --type=LoadBalancer`{{execute}}
 >
 > It can also be done by creating a yaml file called `yaml-exercise.yaml`{{open}} with the following specification
 <pre class="file"
