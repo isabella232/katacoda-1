@@ -16,7 +16,7 @@ Create our second deployment by running
 We then need to check that the deployment is running by running `kubectl get deployment exercise`{{execute}}.
 and expose the deployment again `kubectl expose deployment exercise2 --type=NodePort --port=8080`{{execute}}
 
-Verify that we have both running by checking `kubectl get deployments`{{execute}} and `kubectl get svc`.
+Verify that we have both running by checking `kubectl get deployments`{{execute}} and `kubectl get svc`{{execute}}.
 
 **Exercise 1**
 

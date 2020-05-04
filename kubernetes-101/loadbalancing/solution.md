@@ -58,12 +58,12 @@ Verify the ingress resource is running by running `kubectl get ingress`{{execute
 
 Add the following line to the bottom of the /etc/hosts file to add the host ip to the list of hosts.
 
-**[[HOST_IP]] exercise101.info**. This can be done by running the following command `echo "[[HOST_IP]] exercise101.info">>/etc/hosts`{{execute}}
+`[[HOST_IP]] exercise101.info`. This can be done by running the following command `echo "[[HOST_IP]] exercise101.info">>/etc/hosts`{{execute}}
 
 We can check our ingress controller is diverting traffic by running
 `curl exercise101.info`{{execute}} 
 
-You should see the request returns a response similar to the one below (with the hostname replaced by your pod name) showing the request hit the `web` app.
+You should see the request returns a response similar to the one below (with the hostname replaced by your pod name) showing the request hit the **web** app.
 
 <pre>
 Hello, world!
@@ -73,7 +73,7 @@ Hostname: exercise-764b75c5d6-lwrh9
 
 **Exercise 2**
 
-Edit the `ingress-template.yaml`{{open}} to modify the ingress rules so that a new rule is added so that any traffic with **/exercise/** at the root of the url divert to the **exercise2** app.
+Edit the `ingress-template.yaml`{{open}} to modify the ingress rules so that a new rule is added so that any traffic with **/exercise/*** at the root of the url divert to the **exercise2** app.
 
 >Solution
 <pre class="file"

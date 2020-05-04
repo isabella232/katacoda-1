@@ -2,7 +2,7 @@
 
 There are a number of ways to expose our deployments outside of the cluster. Although each Pod has a unique IP address, those IPs are not exposed outside the cluster without a Service.
 
-These services allow our deployments to receive traffic outside teh cluster.
+These services allow our deployments to receive traffic outside the cluster.
 
 Services can be exposed in different ways by specifying a type in the ServiceSpec:
 
