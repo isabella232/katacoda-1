@@ -1,8 +1,9 @@
 We can also create a similar pod by creating a [manifest](https://kubernetes.io/docs/reference/glossary/?all=true#term-manifest) using the YAML file (more help can be found [here](https://www.tutorialspoint.com/kubernetes/kubernetes_pod.htm))
 
-## Task 
+## Task
 
 Copy the following definition to the editor. The definition defines how to launch an application called **http-yaml** using the Docker Image **katacoda/docker-http-server**.
+
 <pre class="file"
 data-filename="http-pod.yaml"
 data-target="replace">
@@ -16,7 +17,7 @@ spec:
  containers:
  - image: katacoda/docker-http-server:v1
    name: http-yaml</pre>
-       
+
 If the file does not open, click the link to the file below.
 
 `http-pod.yaml`{{open}}
@@ -24,6 +25,12 @@ If the file does not open, click the link to the file below.
 Once the file has been updated, you can verify it's contents by running `cat http-pod.yaml`{{execute}}.
 
 You can then run the following command to create the pod `kubectl apply -f http-pod.yaml`{{execute}}.
+
+<details>
+  <summary>What does `-f` mean?</summary>
+  <p>`-f` tells k8s you want to take an action on resource(s) defined in the file you're giving it.</p>
+  <p>See more `apply` options on <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply" target="_blank">the kubectl documentation</a>.</p>
+</details>
 
 You can then use kubectl to see that the new pod has been added and you should see the `http-yaml` pod below.
 
