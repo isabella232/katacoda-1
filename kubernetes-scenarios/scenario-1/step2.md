@@ -10,7 +10,7 @@ And:
 
 `kubectl get events --sort-by=.metadata.creationTimestamp`{{execute}}
 
-The first command, as it suggests describes the pods in the namespace, if you wanted to describe a single pod you'd simply add the pod name to the end of the command `kubectl describe pods REPLACE-WITH-POD-NAME`. The seconds command returns all the recent events for the namespace you're in.
+The first command, as it suggests describes the pods in the namespace, if you wanted to describe a single pod you'd simply add the pod name to the end of the command `kubectl describe pods REPLACE-WITH-POD-NAME`{{execute}}. The seconds command returns all the recent events for the namespace you're in.
 
 Output from either command should point us to a **liveness probe** being the cause of the issue as its returning a **statuscode** of **404**. Our health check endpoint should be **/healthz**, lets take a look at what the pod is configured with.
 
