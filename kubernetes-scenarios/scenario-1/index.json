@@ -1,0 +1,47 @@
+{
+  "title": "Beginner: CrashloopBackoff",
+  "description": "A pod is failing, its up to you to determine why and provide resolution",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "web-svr.yaml",
+          "target": "~/"
+        },
+        {
+          "file": "patch.yaml",
+          "target": "~/"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}
