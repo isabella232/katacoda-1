@@ -1,6 +1,6 @@
 # Condé Nast katacoda
 
-In this repo you will find all the katacodas, if you are looking to go through scenario you can do it [here](https://www.katacoda.com/condenast)
+In this repo you will find all the katacodas, if you are looking to go through the scenarios you can do it [here](https://www.katacoda.com/condenast)
 
 
 If you looking into adding new scenarios feel free to raise a PR.
