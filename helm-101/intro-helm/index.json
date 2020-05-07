@@ -1,0 +1,47 @@
+{
+  "title": "Helm intro",
+  "description": "Learn the basics of helm and deploy a community chart",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "helm-v2.16.6-linux-amd64.tar.gz",
+          "target": "~/"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideHiddenFiles": true,
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}

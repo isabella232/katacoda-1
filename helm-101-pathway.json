@@ -1,0 +1,11 @@
+{
+  "title": "Helm 101",
+  "description": "Learn the basics of Helm",
+  "courses": [
+    {
+      "course_id": "intro-helm",
+      "title": "Installing Helm and deploying a chart",
+      "description": "Tutorial on installing Helm, deploying a community chart and deploying a custom chart"
+    }
+  ]
+}
