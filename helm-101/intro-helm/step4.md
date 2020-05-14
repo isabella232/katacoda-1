@@ -27,13 +27,12 @@ To overwrite these values we can either pass a **yaml** file with the flag `--va
 
 Let's add a dependency to our chart:
 
-```cat > ./the-chart/requirements.yaml <<EOF
-dependencies:
+```
+echo "dependencies:
 - name: mongodb-replicaset
   version: 3.15.0 # chart version not mongodb version
-  repository: https://kubernetes-charts.storage.googleapis.com
-EOF```{{execute}}
-
+  repository: https://kubernetes-charts.storage.googleapis.com"> ./the-chart/requirements.yaml
+```{{execute}}
 
 We now need to update our chart:
 
@@ -58,6 +57,8 @@ We should have services deployed as well
 And a service account:
 
 `kubectl get serviceaccounts`{{execute}}
+
+> Note it may take a minute or so to install and set up our resources so if they don't appear at first wait a few seconds and run the commands again.
 
 We can test that our mongo deployment is running by selecting one of our `replica-set` pods (e.g. `vocal-lightningbug-mongodb-replicaset-0` in our case) and get it's IP address by running `kubectl get pods -o wide`{{execute}}.
 
