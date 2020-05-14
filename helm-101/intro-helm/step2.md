@@ -13,7 +13,7 @@ A simplified way of thinking about it is, **Helm charts** are packages (one or m
 
 There's the official **helm charts repository** the [Hub Helm](https://hub.helm.sh/) in here you will find most of the official charts for open source tools and technologies (redis, mysql, nginx, etc.).
 
-###Let's deploy our first chart!
+### Let's deploy our first chart!
 
 
 Let's first create a new namespace:
