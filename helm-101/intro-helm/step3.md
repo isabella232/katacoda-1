@@ -8,7 +8,7 @@ We can list our helm deployments:
 
 We can upgrade our deployment to the latest version of the **chart**:
 
-`helm upgrade mysql-dev`{{execute}}
+`helm upgrade mysql-dev stable/mysql`{{execute}}
 
 We should see a new revision:
 
