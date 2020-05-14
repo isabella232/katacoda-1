@@ -5,6 +5,8 @@ First, let's start our cluster:
 
 `minikube start --wait=false`{{execute}}
 
+> Note katacoda is downloading files in the background so it may take up to a minute for the terminal to become responsive.
+
 For this exercise we already provide the **tar** file. But installing **Helm** is quite easy, find the version you want to install from the [releases page](https://github.com/helm/helm/releases) and download the binary.
 
 Check that it has been uploaded, you should see a tar file:
