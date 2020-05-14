@@ -58,7 +58,7 @@ And a service account:
 
 `kubectl get serviceaccounts`{{execute}}
 
-> Note it may take a minute or so to install and set up our resources so if they don't appear at first wait a few seconds and run the commands again.
+> **Note:** it may take a minute or so to install and set up our resources so if they don't appear at first wait a few seconds and run the commands again.
 
 We can test that our mongo deployment is running by selecting one of our `replica-set` pods (e.g. `vocal-lightningbug-mongodb-replicaset-0` in our case) and get it's IP address by running `kubectl get pods -o wide`{{execute}}.
 
