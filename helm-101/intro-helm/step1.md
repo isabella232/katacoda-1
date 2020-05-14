@@ -3,7 +3,7 @@
 
 First, let's start our cluster:
 
-`minikube start --wait=false`{{execute}}}
+`minikube start --wait=false`{{execute}}
 
 For this exercise we already provide the **tar** file. But installing **Helm** is quite easy, find the version you want to install from the [releases page](https://github.com/helm/helm/releases) and download the binary.
 
