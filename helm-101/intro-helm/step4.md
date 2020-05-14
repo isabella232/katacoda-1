@@ -12,7 +12,7 @@ We will be covering some concepts, but to get the full grasp nothing better than
 
 This will create a folder with the name **the-chart** have a look at the files either using the editor, or the terminal.
 
-> If the files do not appear in the editor, click the <i class="fas fa-sync-alt"></i>  <i class="fas fa-sync-alt">refresh</i> icon in the top left and the files should appear
+> If the files do not appear in the editor, click the <i class="fas fa-sync-alt"></i> icon in the top left and the files should appear
 
 The most important bit is the templates folder. In there you will find some default templates with what looks like some sort of template placeholders. Behind the scenes **Helm** uses [go template](https://golang.org/pkg/text/template/).
 
