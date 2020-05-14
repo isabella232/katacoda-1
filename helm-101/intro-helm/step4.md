@@ -68,8 +68,7 @@ Then we can run the following command to test it is working
 and should receive the following response 
 
 `It looks like you are trying to access MongoDB over HTTP on the native driver port.`
-### Summary
 
-We just deployed our app plus, a **service**, a **service account** and a database as one atomic piece, so reverting, updating or deleting our helm deployment
+### Summary
 
 We just deployed our app plus, a **service**, a **service account** and a **database** as one atomic piece. Reverting, updating or deleting our helm release will be managed through its CLI as a single cohesive unit.
