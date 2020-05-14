@@ -62,7 +62,7 @@ And a service account:
 
 We can test that our mongo deployment is running by selecting one of our `replica-set` pods (e.g. `vocal-lightningbug-mongodb-replicaset-0` in our case) and get it's IP address by running `kubectl get pods -o wide`{{execute}}.
 
-Then we can run the following command to test it is working 
+By default mongodb runs on port `27017`. We can run the following command to test it is working.
 
 `curl <NODE-IP>:27017` (in our case `curl 172.18.0.8:27017`).
 
