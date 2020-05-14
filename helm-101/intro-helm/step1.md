@@ -8,7 +8,7 @@ First, let's start our cluster:
 For this exercise we already provide the **tar** file. But installing **Helm** is quite easy, find the version you want to install from the [releases page](https://github.com/helm/helm/releases) and download the binary.
 
 Check that it has been uploaded, you should see a tar file:
-`ls -la`{{execute}}
+`ls -la | grep helm`{{execute}}
 
 If you can't see the file give it a few seconds, katacoda should be uploading it.
 
