@@ -36,7 +36,7 @@ We can delete a pod based on the yaml file by running `kubectl delete -f http-po
 
 > **Note**: This file must be unchanged and have the same pod name otherwise it will not know which pod to delete.
 
-You should get a console log saying `pod "http" deleted`
+You should get a console log saying `pod "http-yaml" deleted`
 
 ### Exercise 2 - Deleting a pod
 
