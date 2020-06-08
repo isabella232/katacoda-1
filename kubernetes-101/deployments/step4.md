@@ -31,7 +31,7 @@ You should also see that we have a new `rollout` history:
 
 Let's revert our deployment, it turns out we prefer nginx 1.14.2:
 
-`kubectl rollout undo deployment/nginx-deployment`
+`kubectl rollout undo deployment/nginx-deployment`{{execute}}
 
 Check the status of your deployment:
 
