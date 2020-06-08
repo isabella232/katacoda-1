@@ -27,7 +27,7 @@ Let's check if our deployment was succesfull:
 
 You should also see that we have a new `rollout` history:
 
-`kubectl rollout status deployment/nginx-deployment`{{execute}}
+`kubectl rollout history deployment/nginx-deployment`{{execute}}
 
 Let's revert our deployment, it turns out we prefer nginx 1.14.2:
 
