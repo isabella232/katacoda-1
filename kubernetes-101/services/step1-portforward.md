@@ -7,7 +7,7 @@ THis can be useful when you want to temporarily connect into a pod directly and 
 
 To get the name of a pod in question, begin by running `kubectl get pods -l app=http`{{execute}} and see our pods.
 
-We can then select the pods we wish to use by picking the first of those pods and runnign the following command `export TARGET_POD=$(kubectl get pods -l app=http -o jsonpath='{range .items[0]}{@.metadata.name}{"\n"}{end}')`{{execute}}
+We can then select the pods we wish to use by picking the first of those pods and running the following command `export TARGET_POD=$(kubectl get pods -l app=http -o jsonpath='{range .items[0]}{@.metadata.name}{"\n"}{end}')`{{execute}}
 
 We can then run `kubectl port-forward $TARGET_POD 1234:80`{{execute}} (where the pod name is replaced by one of the pods in question) and should see a response similar to below.
 
